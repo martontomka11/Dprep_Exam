@@ -2,7 +2,7 @@
 ##### PLOT ALL #######
 ######################
 
-df_grouped <- read.csv("df_grouped.csv")
+df_grouped <- read.csv("data/df_grouped.csv")
 
 # import the data from `gen/data-preparation/aggregated_df.csv`
 df <- df_grouped

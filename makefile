@@ -1,6 +1,6 @@
 all: listings.csv reviews.csv df_pivot.csv plot.pdf plot_all.pdf
 
-listings.csv, reviews.csv: download.R
+listings.csv reviews.csv: download.R
 	R --vanilla < download.R
 
 df_grouped.csv: clean.R

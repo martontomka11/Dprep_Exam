@@ -10,7 +10,7 @@ df_pivot.csv: pivot_table.R
 	R --vanilla < pivot_table.R
 
 plot.pdf: plot.R
-	R --vanilla < plot_Antwerp.R
+	R --vanilla < plot.R
 
 plot_all.pdf: plot_all.R
 	R --vanilla < plot_all.R

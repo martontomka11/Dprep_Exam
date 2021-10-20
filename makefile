@@ -1,4 +1,4 @@
-all: listings.csv reviews.csv df_pivot.csv plot.pdf plot_all.pdf
+all: listings.csv reviews.csv df_grouped.csv df_pivot.csv plot.pdf plot_all.pdf
 
 listings.csv reviews.csv: download.R
 	R --vanilla < download.R
@@ -14,4 +14,3 @@ plot.pdf: plot.R
 
 plot_all.pdf: plot_all.R
 	R --vanilla < plot_all.R
-

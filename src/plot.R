@@ -2,6 +2,8 @@
 ### PLOT  ####
 ##############
 
+df_pivot <- read.csv("df_pivot.csv")
+
 # convert the `date` column into date format.
 df_pivot$date <- as.Date(df_pivot$date)
 
